@@ -1,0 +1,136 @@
+uv init
+uv venv
+.venv\Scripts\activate
+pip list
+pip --version
+where python
+where pip
+python -m pip list
+uv pip list
+uv pip install fastapi
+uv pip list
+uv pip install "uvicorn[standard]"
+uv pip list
+doskey /history > command_history.txt
+uv init
+uv venv
+.venv\Scripts\activate
+pip list
+pip --version
+where python
+where pip
+python -m pip list
+uv pip list
+uv pip install fastapi
+uv pip list
+uv pip install "uvicorn[standard]"
+uv pip list
+doskey /history > command_ history.txt
+doskey /history > command_history.txt
+d:\FASTAPI\.venv\Scripts\activate.bat
+uv pip install -r requirements.txt
+pip list
+uv pip list
+doskey /history >> command_history.txt
+uv init
+uv venv
+.venv\Scripts\activate
+pip list
+pip --version
+where python
+where pip
+python -m pip list
+uv pip list
+uv pip install fastapi
+uv pip list
+uv pip install "uvicorn[standard]"
+uv pip list
+doskey /history > command_ history.txt
+doskey /history > command_history.txt
+d:\FASTAPI\.venv\Scripts\activate.bat
+uv pip install -r requirements.txt
+pip list
+uv pip list
+doskey /history >> command_history.txt
+cls
+uvicorn Project_1\create_FastAPI_Endpoint:app --reload
+uvicorn Project_1.create_FastAPI_Endpoint:app --reload
+doskey /history >> command_history.txt
+uv init
+uv venv
+.venv\Scripts\activate
+pip list
+pip --version
+where python
+where pip
+python -m pip list
+uv pip list
+uv pip install fastapi
+uv pip list
+uv pip install "uvicorn[standard]"
+uv pip list
+doskey /history > command_ history.txt
+doskey /history > command_history.txt
+d:\FASTAPI\.venv\Scripts\activate.bat
+uv pip install -r requirements.txt
+pip list
+uv pip list
+doskey /history >> command_history.txt
+cls
+uvicorn Project_1\create_FastAPI_Endpoint:app --reload
+uvicorn Project_1.create_FastAPI_Endpoint:app --reload
+doskey /history >> command_history.txt
+uvicorn Project_1.2_Enhance_GET_request:app --reload
+cls
+doskey /history >> command_history.txt
+uv init
+uv venv
+.venv\Scripts\activate
+pip list
+pip --version
+where python
+where pip
+python -m pip list
+uv pip list
+uv pip install fastapi
+uv pip list
+uv pip install "uvicorn[standard]"
+uv pip list
+doskey /history > command_ history.txt
+doskey /history > command_history.txt
+d:\FASTAPI\.venv\Scripts\activate.bat
+uv pip install -r requirements.txt
+pip list
+uv pip list
+doskey /history >> command_history.txt
+cls
+uvicorn Project_1\create_FastAPI_Endpoint:app --reload
+uvicorn Project_1.create_FastAPI_Endpoint:app --reload
+doskey /history >> command_history.txt
+uvicorn Project_1.2_Enhance_GET_request:app --reload
+cls
+doskey /history >> command_history.txt
+uvicorn Project_1.3_Path_parameter:app --reload
+doskey /history >> command_history.txt
+d:\FASTAPI\.venv\Scripts\activate.bat
+uvicorn Project_1.4_Query_parameter:app --reload
+uvicorn Project_1.5_Post_Request:app --reload
+uvicorn Project_1.6_Put_Request:app --reload
+uvicorn Project_1.7_Delete_Request:app --reload
+uvicorn Project_1.Assignmnet:app --reload
+uvicorn Project_2.1_setup_book:app --reload
+doskey /history >> command_history.txt
+d:\FASTAPI\.venv\Scripts\activate.bat
+uvicorn Project_1.4_Query_parameter:app --reload
+uvicorn Project_1.5_Post_Request:app --reload
+uvicorn Project_1.6_Put_Request:app --reload
+uvicorn Project_1.7_Delete_Request:app --reload
+uvicorn Project_1.Assignmnet:app --reload
+uvicorn Project_2.1_setup_book:app --reload
+doskey /history >> command_history.txt
+uvicorn Project_2.2_Post_Request_before_validation:app --reload
+uvicorn Project_2.5_Pydantic_Configurations:app --reload
+uvicorn Project_2.6_FetchBook:app --reload
+uvicorn Project_2.7_FetchBook_by_Rating:app --reload
+cls
+doskey /history >> command_history.txt
