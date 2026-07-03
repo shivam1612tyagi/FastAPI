@@ -134,3 +134,35 @@ uvicorn Project_2.6_FetchBook:app --reload
 uvicorn Project_2.7_FetchBook_by_Rating:app --reload
 cls
 doskey /history >> command_history.txt
+d:\FASTAPI\.venv\Scripts\activate.bat
+uvicorn Project_1.4_Query_parameter:app --reload
+uvicorn Project_1.5_Post_Request:app --reload
+uvicorn Project_1.6_Put_Request:app --reload
+uvicorn Project_1.7_Delete_Request:app --reload
+uvicorn Project_1.Assignmnet:app --reload
+uvicorn Project_2.1_setup_book:app --reload
+doskey /history >> command_history.txt
+uvicorn Project_2.2_Post_Request_before_validation:app --reload
+uvicorn Project_2.5_Pydantic_Configurations:app --reload
+uvicorn Project_2.6_FetchBook:app --reload
+uvicorn Project_2.7_FetchBook_by_Rating:app --reload
+cls
+doskey /history >> command_history.txt
+cls
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shivam1612tyagi/FastAPI.git
+git push -u origin main
+CLS
+doskey /history >> command_history.txt
+d:\FASTAPI\.venv\Scripts\activate.bat
+cd TodoAPP
+sqlite3 todosapp.db
+cls
+doskey /history >> command_history.txt
+uvicorn main:app --reload
+doskey /history >> command_history.txt
+cd ..
+doskey /history >> command_history.txt
