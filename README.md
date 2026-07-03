@@ -17,19 +17,28 @@ Whether you're learning FastAPI for the first time or revisiting core concepts, 
 ## 🗂️ Project Structure
 
 ```
-FastAPI-The-Complete-Course/
+FastAPI/
 │
 ├── PythonRefresher/        # Python fundamentals refresher (OOP, classes, etc.)
-├── Project 1/               # Intro to FastAPI - first endpoints
-├── Project 2/                # Books API - CRUD, validation, status codes
-├── Project 3/                 # Database integration with SQLAlchemy
-├── Project 3.5/                # TodoApp - authentication foundations
+├── Project_1/               # Intro to FastAPI - first endpoints
+├── Project_2/                # Books API - CRUD, validation, status codes
+├── Project 3/                  # Database integration with SQLAlchemy
+├── Project 3.5/                 # TodoApp - authentication foundations
 │    └── TodoApp/
 │         └── routers/
-│              └── auth.py    # JWT-based auth logic
-├── Project 4/                  # Authorization & JWT tokens
+│              └── auth.py     # JWT-based auth logic
+├── Project 4/
+│    └── TodoApp/               # Authorization & JWT tokens
 ├── Project 5/                   # Advanced features / deployment-ready app
+├── TodoAPP/                      # Rough Todo application
+├── 1_TodoAPP/                     # Rough Todo app iteration
 │
+├── FastAPI_Slides.pdf            # Course reference slides
+├── command_history.txt           # Useful CLI commands used during the course
+├── create_virtual_env.txt        # venv setup notes
+├── create_virtual_env_using_uv.txt  # uv-based venv setup notes
+├── main.py
+├── pyproject.toml
 ├── requirements.txt
 └── README.md
 ```
@@ -53,24 +62,25 @@ FastAPI-The-Complete-Course/
 
 ## 🛠️ Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| **FastAPI** | Web framework for building APIs |
-| **Uvicorn** | ASGI server |
-| **SQLAlchemy** | ORM for database interaction |
-| **Pydantic** | Data validation & settings management |
-| **JWT (python-jose / passlib)** | Authentication & password hashing |
-| **SQLite / PostgreSQL** | Database |
-| **Pytest** | Testing framework |
+| Tool                            | Purpose                               |
+| -------------------------------- | -------------------------------------- |
+| **FastAPI**                      | Web framework for building APIs        |
+| **Uvicorn**                       | ASGI server                            |
+| **SQLAlchemy**                    | ORM for database interaction           |
+| **Pydantic**                      | Data validation & settings management  |
+| **JWT (python-jose / passlib)**   | Authentication & password hashing      |
+| **SQLite / PostgreSQL**           | Database                               |
+| **Pytest**                        | Testing framework                      |
 
 ---
 
 ## ⚙️ Getting Started
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/shivam1612tyagi/FastAPI.git
-cd FastAPI-The-Complete-Course
+cd FastAPI
 ```
 
 ### 2. Create & activate a virtual environment
@@ -87,22 +97,28 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+> Prefer `uv`? See `create_virtual_env_using_uv.txt` for the faster, uv-based setup.
+
 ### 3. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Navigate into a project folder
+
 ```bash
 cd "Project 5/TodoApp"
 ```
 
 ### 5. Run the application
+
 ```bash
 uvicorn main:app --reload
 ```
 
 ### 6. Open the interactive API docs
+
 ```
 http://127.0.0.1:8000/docs
 ```
@@ -112,9 +128,10 @@ http://127.0.0.1:8000/docs
 ## 📖 How to Use This Repo
 
 1. Start with `PythonRefresher/` if you need a quick Python OOP refresher.
-2. Move through `Project 1` → `Project 5` in order — each folder is self-contained and builds on concepts from the previous one.
+2. Move through `Project_1` → `Project 5` in order — each folder is self-contained and builds on concepts from the previous one.
 3. Read the code alongside the endpoint docs at `/docs` (Swagger UI) to see requests/responses in action.
 4. Experiment — break things, add new endpoints, and test them via Swagger UI or `pytest`.
+5. Refer to `FastAPI_Slides.pdf` for conceptual explanations alongside the code.
 
 ---
 
@@ -137,9 +154,7 @@ This project is intended for educational purposes. Please check the repository f
 
 ## 🙌 Credits
 
-**README created by:** Shivam Tyagi
-
-Course & repository originally by **[codingwithroby](https://github.com/codingwithroby)**.
+**Repository maintained by:** [Shivam Tyagi](https://github.com/shivam1612tyagi)
 
 ---
 
